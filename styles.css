@@ -1,0 +1,198 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Contenedor de la frase */
+.quote-container {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.summary-container {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* Contenedor para la imagen central */
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-container img {
+    width: 195px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #ccc;
+}
+
+/* Estilos para la lista de personajes */
+.character-list {
+    width: 60%;
+    margin: 0 auto; /* Centra el contenido */
+    padding: 20px;
+    text-align: center;
+}
+
+.character-list h3 {
+    font-size: 24px; /* Tamaño del subtítulo (letras A, B, C, etc.) */
+    margin-bottom: 10px;
+    color: #333; /* Color oscuro para destacar */
+}
+
+.character-list ul {
+    list-style-type: none; /* Elimina los bullets de la lista */
+    padding: 0;
+    margin-bottom: 20px; /* Espacio entre las listas de cada letra */
+}
+
+.character-list li {
+    font-size: 18px; /* Tamaño de letra para los nombres de los personajes */
+    color: #444; /* Color de las letras */
+    margin: 5px 0; /* Espaciado entre los elementos de la lista */
+    padding: 10px;
+    background-color: #f5f5f5; /* Fondo claro para cada nombre */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.character-list li:hover {
+    background-color: #ddd; /* Efecto hover para cada nombre */
+    cursor: pointer;
+}
+
+/* Estilos para la sección de personajes */
+.characters-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.character-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.character-box {
+    width: 48%;
+    background-color: #f5f5f5;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.character-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.character-box h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.character-box p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Estilos para los enlaces dentro de la lista de personajes */
+.character-list a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Mantiene el color de texto del contenedor (hereda) */
+    font-weight: bold; /* Hace que el texto sea más fuerte, si lo prefieres */
+    cursor: pointer; /* Cambia el cursor a mano cuando se pasa por encima */
+}
+
+.character-list a:hover {
+    color: #333; /* Cambia el color al pasar el ratón, si lo deseas */
+    transition: color 0.3s ease; /* Añade una transición suave en el color */
+}
